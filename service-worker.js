@@ -5,6 +5,7 @@ const assets = [
  "/formulario.html",
  "/outros.html",
  "/fotos.html",
+ "/sobre.html",
  "/manifest.json",
  "/panda.png",
  "/sea_turtle.jpg",

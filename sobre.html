@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mim</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <style>
+        header {
+            margin-bottom: 70px;
+        }
+
+        .about-text {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .about-image {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .about-container {
+            margin-top: 50px;
+        }
+    </style>
+
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Meu PWA</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="outros.html">Outros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="fotos.html">Fotos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="formulario.html">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container about-container">
+            <div class="row gy-3 gy-md-4 gy-lg-0 align-items-lg">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <img class="about-image" src="user.png" alt="Imagem sobre mim">
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-8">
+                    <p class="about-text">
+                        Olá! Eu sou um desenvolvedor apaixonado por tecnologia e inovação. Tenho experiência no desenvolvimento de aplicativos e sistemas, sempre buscando aprimorar minhas habilidades e explorar novas ferramentas e linguagens de programação. 
+                        Gosto de trabalhar com projetos desafiadores que me permitem aprender e crescer profissionalmente, além de colaborar com equipes criativas para criar soluções que impactem positivamente o mundo ao nosso redor.
+                    </p>
+                    <p class="about-text">
+                        No meu tempo livre, sou um entusiasta de fotografia e gosto de capturar momentos especiais. Acredito que a combinação de criatividade e tecnologia pode resultar em projetos incríveis, seja na programação ou na arte visual.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center mt-4">
+                <button class="btn btn-primary btn-lg">Entre em contato</button>
+                <button class="btn btn-secondary btn-lg">Veja meu portfólio</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
